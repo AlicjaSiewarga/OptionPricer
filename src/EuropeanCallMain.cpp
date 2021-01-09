@@ -22,7 +22,6 @@ double europeanCallOption(int n,
 
   EuropeanCallOption option(n, strike, spot, vol, r, exp, barrier);
   double price = option.getEuropeanCallPrice(nReps);
-  std::cout << "The price of the option is: " << price;
 
   return price;
 }
