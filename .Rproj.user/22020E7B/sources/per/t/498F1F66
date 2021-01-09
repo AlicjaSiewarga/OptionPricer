@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1610081201232.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1412119302",
+    "id" : "498F1F66",
+    "lastKnownWriteTime" : 1610080990,
+    "last_content_update" : 1610080990,
+    "path" : "~/Desktop/Project/AppliedFinance/Packages/OptionPricer/src/rcpp_hello.cpp",
+    "project_path" : "src/rcpp_hello.cpp",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "cpp"
+}

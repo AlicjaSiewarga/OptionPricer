@@ -1,0 +1,3 @@
+install.packages("packages/OptionPricer_0.1.0.tar.gz", type = "source", repos = NULL)
+
+OptionPricer::main()

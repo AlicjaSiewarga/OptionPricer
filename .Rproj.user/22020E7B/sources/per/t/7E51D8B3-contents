@@ -1,0 +1,21 @@
+#include<vector>
+#include<ctime>
+#include<cstdlib>
+#include<iostream>
+#include"EuropeanCallOption.h"
+#include"getOneGaussianByBoxMueller.h"
+#include <Rcpp.h>
+
+using namespace Rcpp;
+
+// [[Rcpp::export]]
+int main(){
+
+  srand(time(NULL));
+
+  EuropeanCallOption option(100, 50, 45, 0.25, 0.04, 0.5, 70);
+  double price = option.getEuropeanCallPrice(100000);
+  std::cout << "The price of the option is: " << price;
+
+  return 0;
+}
